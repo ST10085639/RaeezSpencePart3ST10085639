@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <h1>Hello, This is CMCS</h1>
+    <body>
+        <h4>
+            Create a new account or Sign In, Active User
+        </h4>
+        <div>
+            @Html.ActionLink("New User", "Create", "Users", new { area = " " }, new { @class = "btnStyle" })
+        </div>
+
+        <div>
+            @Html.ActionLink("Sign-in", "Create", "Claims", new { area = " " }, new { @class = "btnStyle" })
+        </div>
+
+    </body>
+</main>
